@@ -10,7 +10,7 @@ class Location:
         print("%s" % (self.address1))
         print ("%s" % (self.address2))
         
-object = Location(27,"The Hawthorns", "Castletroy", "Limerick")
+object = Location(00,"Pearse Street", "Cork", "Ireland")
 object.fullAddress()
 
 object.number = str (object.number)
